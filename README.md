@@ -21,6 +21,11 @@ REPLACE VARIABLES WITH PERSONAL INFOS.
 ## Configure
 
 Edit the ~/Airflow/airflow.cfg file, to update the location of the dags folder to be absolute path to dags directory at this location.
+
+Set up a user
+
+`airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin`
+
 ## Launch
 
 Do this after the config change to pick up the local dags location.
