@@ -9,11 +9,19 @@ This will get you compatible package versions.
 ## Initialise
 
 `airflow db init`
+
+## Create admin user
+
 `airflow users create \`
+
 `    --username admin \`
+
 `    --firstname FIRST_NAME \`
+
 `    --lastname LAST_NAME \`
+
 `    --role Admin \`
+
 `    --email admin@example.com`
 
 REPLACE VARIABLES WITH PERSONAL INFOS.
