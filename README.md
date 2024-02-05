@@ -1,5 +1,5 @@
 # airflow
-Airflow
+A hello world app for airflow.
 
 ## Installation
 `python3 -m pip install -r requirements.txt`
